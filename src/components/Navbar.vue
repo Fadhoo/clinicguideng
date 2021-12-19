@@ -68,33 +68,38 @@
     </div>
     <!-- mobile menu -->
     <div class="hidden mobile-menu">
+      <router-link
+        to="/review"
+        class="p-2 font-bold text-white text-center bg-clinic-blue rounded-full transition duration-300"
+        style="width: 160px; font-stretch: expanded;"
+      >Leave A Review</router-link>
       <ul class="">
         <li class="active">
-          <a
+          <router-link
             href="/"
             class="block text-sm px-2 py-4 font-semibold mobile-nav transition duration-300"
-            >Home</a
+            >Home</router-link
           >
         </li>
         <li>
-          <a
+          <router-link
             href="/emergency"
             class="block text-sm px-2 py-4 mobile-nav transition duration-300"
-            >Emergency Contacts</a
+            >Emergency Contacts</router-link
           >
         </li>
         <li>
-          <a
+          <router-link
             href="/blog"
             class="block text-sm px-2 py-4 mobile-nav transition duration-300"
-            >Blog</a
+            >Blog</router-link
           >
         </li>
         <li>
-          <a
+          <router-link
             href="/about"
             class="block text-sm px-2 py-4 mobile-nav transition duration-300"
-            >About</a
+            >About</router-link
           >
         </li>
       </ul>
