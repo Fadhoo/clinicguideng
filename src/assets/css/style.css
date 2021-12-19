@@ -1,0 +1,127 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: proxima-nova;
+    src: url(fonts/proxima-nova/prxima-nova-font.otf)format("opentype");
+  }
+
+a,
+h1,
+h2,
+h3,
+h4,h5,h6, p {
+    font-family: proxima-nova, sans-serif;
+    font-style: regular;
+}
+
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+}
+
+.card {
+    @apply px-8 py-12 min-h-[630px] bg-opacity-50;  
+}
+
+.card {
+    background-color: #FF7F50;
+    border-radius: 8px;
+    /* margin: auto; */
+    min-width: 466px;
+    /* height: 630px; */
+}
+
+.big-card {
+    background-color: #FF7F50;
+    border-radius: 8px;
+    /* margin: auto; */
+    max-width: 1080px;
+    min-height: 529px;
+}
+
+.bigger-card {
+    background-color: #FF7F50;
+    margin: auto;
+    height: auto;
+}
+
+footer{
+    background-color: #FF7F50;
+
+}
+
+.nav-navigation{
+    color: #002366;
+    font-size: 21px;
+}
+
+.mobile-nav{
+    color: #002366;
+}
+
+.mobile-nav:hover{
+    background-color: #002366;
+}
+
+.bg-clinic-blue{
+    background-color: #002366;
+}
+
+.bg-clinic-yellow{
+    background-color: #FF7F50;
+}
+
+.clinic-yellow{
+    color: #FF7F50;
+}
+
+.landing-text{
+    font-size: 70px;
+    font-weight: 900;
+    font-stretch: expanded;
+    color: #002366;
+}
+
+.clinicblue{
+    color: #002366;
+}
+
+.landing-page-button1{
+    border-width: 3px;
+    border-color: #002366;
+    color: #002366;
+
+}
+
+.landing-page-button1:hover{
+    background-color: #002366;
+}
+
+.landing-page-button2{
+    border-width: 3px;
+    background-color: #002366;
+
+}
+
+.landing-page-button3{
+    border-width: 3px;
+    border-color: #FF7F50;
+    color: #FF7F50;
+}
+
+.landing-page-button3:hover{
+    background-color: #FF7F50;
+}
+
+.footer-header{
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.emergency-icons{
+    max-width: 110.89px;
+}
