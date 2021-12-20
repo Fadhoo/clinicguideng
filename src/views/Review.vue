@@ -1,7 +1,7 @@
 <template>
   <Navbar/>
   <section class="justify-center max-w-7xl md:mx-auto px-4">
-      <div class="grid grid-cols-3 pt-10 " style="width: 1080px">
+      <div class="grid lg:grid-cols-3 lg:grid-rows-none md:grid-rows-2 pt-10" style="width: 90%">
         <div class="border-line h-20 col-span-1 grid grid-cols-3">
           <div class="filter">
             <h3>Hospital</h3>
@@ -14,7 +14,7 @@
           </div>
         </div>
 
-        <div class="col-span-2 relative">
+        <div class="lg:col-span-2 relative">
           <input class="border-line pl-4 w-full focus:outline-none text-2xl"
             type="search" name="search" placeholder="Search Here">
           <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
@@ -25,8 +25,8 @@
 
 
       </div>
-      <div class="card bg-clinicyellow mt-10" style="width: 1196px; height: 310px; border-radius: 14px;">
-        <div class="grid grid-cols-4">
+      <div class="card bg-clinicyellow mt-10" style="max-width: 1196px; min-height: 310px; border-radius: 14px;">
+        <div class="grid lg:grid-rows-none lg:grid-cols-4 md:grid-rows-4">
           <div class="place-self-start bluecard">
             <div class="card-body content-center pl-10 pt-5">
               <h5 class="card-title" style="font-size: 21px;">
@@ -80,21 +80,21 @@
               </div>
             </div>
           </div>
-          <div class="card-body pl-10 col-span-3">
-            <h3 class="card-title inline mt-5">
+          <div class="card-body pl-10 lg:col-span-3 md:row-span-3 md:flex-auto">
+            <h3 class="card-title inline mt-5 break-normal">
               ClearEye Hospital <p class="inline body-text"> (1.3 miles away)</p>
             </h3>
-            <hr class="mb-4" style="width: 821px;">
+            <hr class="mb-4" style="max-width: 821px;">
 
-            <p class="card-text">“The nurses were very accomodating and friendly. Enjoyed their service and ambience.”</p>
+            <p class="card-text break-normal">“The nurses were very accomodating and friendly. Enjoyed their service and ambience.”</p>
             <p class="text-right mr-20 body-text">Ayotunde</p>
 
-            <hr class="my-4" style="width: 821px;">
+            <hr class="my-4">
 
-            <p class="card-text">“The doctor was friendly, but the nurses kept making mistakes and messing up.”</p>
+            <p class="card-text break-normal">“The doctor was friendly, but the nurses kept making mistakes and messing up.”</p>
             <p class="text-right mr-20 body-text">Debbie</p>
 
-            <hr class="my-4" style="width: 821px;">
+            <hr class="my-4">
 
             <h4 class="text-center card-text">More Reviews</h4>
 
