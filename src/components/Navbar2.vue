@@ -41,11 +41,10 @@
         <!-- Secondary Navbar items -->
         <div class="hidden md:flex items-center space-x-3">
           <router-link
-            to="/review"
-            class="p-2 font-bold text-white text-center bg-clinic-blue rounded-full transition duration-300"
-            style="width: 160px; font-stretch: expanded;"
-            >Leave A Review</router-link
-          >
+                to="/direction"
+                class="p-2 font-bold text-white text-center rounded-full transition duration-300"
+                style="width: 160px; font-stretch: expanded; border: 2px 002366;"
+            >Get Directions</router-link>
         </div>
         <!-- Mobile menu button -->
         <div class="md:hidden flex items-center">
@@ -100,17 +99,17 @@
         </li>
       </ul>
       <router-link
-        to="/review"
-        class="p-2 font-bold text-white text-center bg-clinic-blue rounded-full transition duration-300"
-        style="width: 160px; font-stretch: expanded;"
-      >Leave A Review</router-link>
+        to="/direction"
+        class="p-2 font-bold text-white text-center rounded-full transition duration-300"
+        style="width: 160px; font-stretch: expanded; border: 2px 002366;"
+      >Get Directions</router-link>
     </div>
   </nav>
 </template>
 
 <script>
 export default {
-  name: 'Navbar',
+  name: 'Navbar2',
   // props: {
   //   msg: String
   // },
