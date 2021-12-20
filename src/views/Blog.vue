@@ -159,11 +159,11 @@
           <p class="text-center text-white pt-10" style="font-size:28px;">Subscribe to our newsletter to stay connected to our activities, <br>
             get blogpost updates and sneakpeeks on what's happening in our community!</p>
           <div class="form pt-10 gap-4">
-            <div>
+            <form netlify>
               <input class="lg:inline sm:block p-2 lg:mr-5 mt-5 md:text-center" type="text" placeholder="Fullname">
               <input class="lg:inline sm:block p-2 lg:mr-5 mt-5 md:text-center" type="text" placeholder="Email Address">
               <button class="rounded-full text-white mt-5 px-5 py-1">Subscribe</button>
-            </div>
+            </form>
           </div>
           <div class="grid lg:grid-cols-2 md:grid-cols-1 pt-10">
             <div class="contact">

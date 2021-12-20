@@ -107,7 +107,7 @@
   <section class="justify-center max-w-7xl md:mx-auto px-4 pt-20">
     <div class="experience lg:ml-20"><h3>Tell Us Your Experience</h3></div>
 
-    <div class="grid justify-center grid-rows-3 ml-10">
+    <form class="grid justify-center grid-rows-3 ml-10" netlify>
       <div class="p-3">
         <div class="place-self-start inline">
           <img class="inline p-3" src="../assets/big-star.png" alt="">
@@ -126,11 +126,11 @@
 
       </div>
       <div class="grid justify-center">
-        <button class="bg-clinic-blue mt-5 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline" type="button" style="width:225px;">
+        <button class="bg-clinic-blue mt-5 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline" type="submit" style="width:225px;">
           Leave A Review
         </button>
       </div>
-    </div>
+    </form>
   </section>
   <section class="justify-center max-w-7xl md:mx-auto px-4 pt-20">
     <div class="bg-white shadow">
