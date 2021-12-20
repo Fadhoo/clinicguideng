@@ -76,28 +76,28 @@
       <ul class="">
         <li class="active">
           <router-link
-            href="/"
+            to="/"
             class="block text-sm px-2 py-4 font-semibold mobile-nav transition duration-300"
             >Home</router-link
           >
         </li>
         <li>
           <router-link
-            href="/emergency"
+            to="/emergency"
             class="block text-sm px-2 py-4 mobile-nav transition duration-300"
             >Emergency Contacts</router-link
           >
         </li>
         <li>
           <router-link
-            href="/blog"
+            to="/blog"
             class="block text-sm px-2 py-4 mobile-nav transition duration-300"
             >Blog</router-link
           >
         </li>
         <li>
           <router-link
-            href="/about"
+            to="/about"
             class="block text-sm px-2 py-4 mobile-nav transition duration-300"
             >About</router-link
           >

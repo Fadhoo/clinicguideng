@@ -6,7 +6,7 @@
       <!-- <div class=""> -->
       <div class="grid bg-blue lg:grid-cols-2 sm:relative sm:grid-cols-none pb-10">
         <div class="pt-10">
-          <div class="flex landing-text sm:text-center sm:absolute">
+          <div class="flex landing-text">
             Find Healthcare <br> You Need, Anywhere You Are.
           </div>
           <p class="clinicblue" style="font-size: 24px">
