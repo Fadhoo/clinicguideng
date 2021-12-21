@@ -74,9 +74,9 @@
       </div>
       <!-- </div> -->
     </section>
-    <section class="justify-items-center max-w-7xl md:mx-auto lg:px-4 md:px-2">
+    <section class="max-w-7xl md:mx-auto lg:px-4 md:px-2">
       <div class="grid bg-blue lg:grid-cols-2 sm:grid-cols-1">
-        <div class="place-self-end lg:pr-2 mt-10">
+        <div class="place-self-end mt-10">
           <div class="mapouter">
             <div class="gmap_canvas">
             <iframe
@@ -94,12 +94,12 @@
             </div>
           </div>
         </div>
-        <div class="content-start lg:pl-2 mt-10">
+        <div class="content-start lg:ml-2 mt-10">
           
-          <div class="address-card flex justify-center ">
-            <div class="object-contain">
+          <div class="address-card">
+            <div class="">
               <h3 class="clinicblue text-center" style="font-weight: 900; font-size: 35px;">Top Picks For You:</h3>
-              <hr class="mb-6" style="width: 420px;">
+              <hr class="mb-6 m-auto" style="width: 90%;">
               <div class="grid bg-blue grid-cols-4 ">
                 <div class="text-center col-span-3 ">
                   <h4 class="hospital-name text-center">ClearEye Hospital</h4>
@@ -109,7 +109,7 @@
                   <img class="pl-10 pt-5 justify-self-end" src="../assets/arrow_right.png" alt="arrow">
                 </div>
               </div>
-              <hr class="my-6 w-full">
+              <hr class="my-6 m-auto" style="width: 90%;">
               <div class="grid bg-blue grid-cols-4 ">
                 <div class="text-center col-span-3 ">
                   <h4 class="hospital-name">Way Maker Clinic</h4>
@@ -119,7 +119,7 @@
                   <img class="pl-10 pt-5 justify-self-end" src="../assets/arrow_right.png" alt="arrow">
                 </div>
               </div>
-              <hr class="my-6">
+              <hr class="my-6 m-auto" style="width: 90%;">
               <div class="grid bg-blue grid-cols-4 ">
                 <div class="text-center col-span-3 ">
                   <h4 class="hospital-name">Daystar Hospital</h4>
@@ -129,7 +129,7 @@
                   <img class="pl-10 pt-5 justify-self-end" src="../assets/arrow_right.png" alt="arrow">
                 </div>
               </div>
-              <hr class="my-6">
+              <hr class="my-6 m-auto" style="width: 90%;">
               <div class="grid bg-blue grid-cols-4 ">
                 <div class="text-center col-span-3 ">
                   <h4 class="hospital-name">Samaria Hospital</h4>
@@ -139,7 +139,7 @@
                   <img class="pl-10 pt-5 justify-self-end" src="../assets/arrow_right.png" alt="arrow">
                 </div>
               </div>
-              <hr class="mt-4">
+              <hr class="mt-4 m-auto" style="width: 90%;">
               <p class="clinicblue text-center" style="font-weight: 900; font-size: 28px;">More Options</p>
             </div>
           </div>
@@ -387,7 +387,8 @@ export default {
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
     /* margin: auto; */
-    max-width: 466px;
+    width: 100%;
+    max-width: 566px;
     /* height: 630px; */
   }
 

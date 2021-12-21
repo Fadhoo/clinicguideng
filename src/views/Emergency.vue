@@ -14,10 +14,10 @@
                             <img class="m-auto" src="../assets/ememergency.png" alt="">
                             
                             <div class="lg:col-span-3 pt-5 pb-5">
-                                <h4 class="hospital-name text-center">Lagos Emergency Service <br> <p class="address-name">767, 112</p></h4>
+                                <h4 class="hospital-name text-center">Lagos State Emergency Service <br> <p class="address-name">767, 112</p></h4>
                             </div>
                             
-                            <img class="m-auto md:hidden" src="../assets/phone.png" alt="" >
+                            <img class="m-auto" src="../assets/phone.png" alt="" >
                             
                             
                         </div>
@@ -44,7 +44,7 @@
                             <img class="m-auto" src="../assets/pills.png" alt="">
                             
                             <div class="lg:col-span-3 pt-5 pb-5">
-                                <h4 class="hospital-name text-center">Lagos Emergency Service<br> <p class="address-name">08023169485, 08059758886</p></h4>
+                                <h4 class="hospital-name text-center">Lagos State Emergency Service<br> <p class="address-name">08023169485, 08059758886</p></h4>
                             </div>
                             
                             <img class="m-auto" src="../assets/phone.png" alt="phone">

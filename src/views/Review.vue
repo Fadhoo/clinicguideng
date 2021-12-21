@@ -107,7 +107,7 @@
   <section class="justify-center max-w-7xl md:mx-auto px-4 pt-20">
     <div class="experience lg:ml-20"><h3>Tell Us Your Experience</h3></div>
 
-    <form class="grid justify-center grid-rows-3 ml-10" netlify>
+    <form class="grid justify-center lg:grid-rows-3 md:grid-rows-2 ml-10" netlify>
       <div class="p-3">
         <div class="place-self-start inline">
           <img class="inline p-3" src="../assets/big-star.png" alt="">
@@ -120,9 +120,9 @@
           <input class="bg-white pl-5" type="text" placeholder="Name*" style="color: #002366; width: 362px; height: 70px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
         </div>
       </div>
-      <div class="row-span-2 mt-5">
+      <div class="lg:row-span-2 mt-5">
         
-        <input class="bg-white pl-5" type="text" placeholder="Review*" style="color: #002366; width: 979px; height: 196px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
+        <input class="bg-white pl-5" type="text" placeholder="Review*" style="color: #002366; width: 100%; height: 196px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
 
       </div>
       <div class="grid justify-center">

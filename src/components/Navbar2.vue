@@ -42,8 +42,8 @@
         <div class="hidden md:flex items-center space-x-3">
           <router-link
                 to="/direction"
-                class="p-2 font-bold text-white text-center rounded-full transition duration-300"
-                style="width: 160px; font-stretch: expanded; border: 2px 002366;"
+                class="p-2 font-bold text-center rounded-full"
+                style="width: 160px; color: #002366; font-stretch: expanded; border-color:#002366; border-width:3px;"
             >Get Directions</router-link>
         </div>
         <!-- Mobile menu button -->
@@ -100,8 +100,8 @@
       </ul>
       <router-link
         to="/direction"
-        class="p-2 font-bold text-white text-center rounded-full transition duration-300"
-        style="width: 160px; font-stretch: expanded; border: 2px 002366;"
+        class="p-2 font-bold text-center rounded-full"
+        style="width: 160px; color: #002366; font-stretch: expanded; border-color:#002366; border-width:2px;"
       >Get Directions</router-link>
     </div>
   </nav>
