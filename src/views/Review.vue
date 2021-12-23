@@ -1,128 +1,128 @@
 <template>
   <Navbar/>
   <section class="justify-center max-w-7xl md:mx-auto px-4">
-      <div class="grid lg:grid-cols-3 lg:grid-rows-none md:grid-rows-2 pt-10" style="width: 90%">
-        <div class="border-line h-20 col-span-1 grid grid-cols-3">
-          <div class="filter">
-            <h3>Hospital</h3>
-          </div>
-          <div class="filter">
-            <h3>Clinic</h3>
-          </div>
-          <div class="filter pr-5">
-            <h3>Pharmacy</h3>
-          </div>
+    <div class="grid lg:grid-cols-3 lg:grid-rows-none md:grid-rows-2 pt-10" style="width: 90%">
+      <div class="border-line h-20 col-span-1 grid grid-cols-3">
+        <div class="filter">
+          <h3>Hospital</h3>
         </div>
-
-        <div class="lg:col-span-2 relative">
-          <input class="border-line pl-4 w-full focus:outline-none text-2xl"
-            type="search" name="search" placeholder="Search Here">
-          <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
-            <img src="../assets/search-icon.png" alt="">
-          </button>
+        <div class="filter">
+          <h3>Clinic</h3>
         </div>
-          
-
-
+        <div class="filter pr-5">
+          <h3>Pharmacy</h3>
+        </div>
       </div>
-      <div class="card bg-clinicyellow mt-10" style="max-width: 1196px; min-height: 310px; border-radius: 14px;">
-        <div class="grid lg:grid-rows-none lg:grid-cols-4 md:grid-rows-4">
-          <div class="place-self-start bluecard">
-            <div class="card-body content-center pl-10 pt-5">
-              <h5 class="card-title" style="font-size: 21px;">
-                Customer Reviews
-              </h5>
-              <div class="pill mt-3 justify-center rounded-full px-5">
-                <img class="inline " src="../assets/star.png" alt="star">
-                <img class="inline " src="../assets/star.png" alt="star">
-                <img class="inline " src="../assets/star.png" alt="star">
-                <img class="inline " src="../assets/star.png" alt="star">
-                <img class="inline" src="../assets/star.png" alt="star">
 
-                <p class="pl-1 inline text place-self-end">4.7 out of 5</p>
-              </div>
-
-              <p class="pl-10 text-white" style="font-size: 11px;">37 customer ratings</p>
-              <div class="grid grid-cols-7 pt-5">
-                <p class="text inline" style="white-space: nowrap;">5 star</p>
-                <div class="progress-bar bg-white col-span-5 rounded-full"> 
-                  <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:84%; border-color: #FF7F50; border-width: 3px;"></div>
-                </div>
-                <p class="text mr-10">84%</p>
-              </div>
-              <div class="grid grid-cols-7 pt-3">
-                <p class="text inline" style="white-space: nowrap;">4 star</p>
-                <div class="progress-bar bg-white col-span-5 rounded-full"> 
-                  <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:9%; border-color: #FF7F50; border-width: 3px;"></div>
-                </div>
-                <p class="text mr-10">9%</p>
-              </div>
-              <div class="grid grid-cols-7 pt-3">
-                <p class="text inline" style="white-space: nowrap;">3 star</p>
-                <div class="progress-bar bg-white col-span-5 rounded-full"> 
-                  <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:4%; border-color: #FF7F50; border-width: 3px;"></div>
-                </div>
-                <p class="text mr-10">4%</p>
-              </div>
-              <div class="grid grid-cols-7 pt-3">
-                <p class="text inline" style="white-space: nowrap;">2 star</p>
-                <div class="progress-bar bg-white col-span-5 rounded-full"> 
-                  <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:2%; border-color: #FF7F50; border-width: 3px;"></div>
-                </div>
-                <p class="text mr-10">2%</p>
-              </div>
-              <div class="grid grid-cols-7 pt-3">
-                <p class="text inline" style="white-space: nowrap;">1 star</p>
-                <div class="progress-bar bg-white col-span-5 rounded-full"> 
-                  <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:1%; border-color: #FF7F50; border-width: 3px;"></div>
-                </div>
-                <p class="text mr-10">1%</p>
-              </div>
-            </div>
-          </div>
-          <div class="card-body pl-10 lg:col-span-3 md:row-span-3 md:flex-auto">
-            <h3 class="card-title inline mt-5 break-normal">
-              ClearEye Hospital <p class="inline body-text"> (1.3 miles away)</p>
-            </h3>
-            <hr class="mb-4" style="max-width: 821px;">
-
-            <p class="card-text break-normal">“The nurses were very accomodating and friendly. Enjoyed their service and ambience.”</p>
-            <p class="text-right mr-20 body-text">Ayotunde</p>
-
-            <hr class="my-4">
-
-            <p class="card-text break-normal">“The doctor was friendly, but the nurses kept making mistakes and messing up.”</p>
-            <p class="text-right mr-20 body-text">Debbie</p>
-
-            <hr class="my-4">
-
-            <h4 class="text-center card-text">More Reviews</h4>
-
-          </div>
-        </div>
+      <div class="lg:col-span-2 relative">
+        <input class="border-line pl-4 w-full focus:outline-none text-2xl"
+          type="search" name="search" placeholder="Search Here">
+        <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+          <img src="../assets/search-icon.png" alt="">
+        </button>
+      </div>
         
 
+
+    </div>
+    <div class="bg-clinicyellow mt-10" style="max-width: 1196px; min-height: 310px; border-radius: 14px; background-color: #FF7F50;">
+      <div class="grid lg:grid-rows-none lg:grid-cols-4 md:grid-rows-4">
+        <div class="place-self-start bluecard">
+          <div class="card-body content-center pl-10 pt-5">
+            <h5 class="card-title" style="font-size: 21px;">
+              Customer Reviews
+            </h5>
+            <div class="pill mt-3 justify-center rounded-full px-5">
+              <img class="inline " src="../assets/star.png" alt="star">
+              <img class="inline " src="../assets/star.png" alt="star">
+              <img class="inline " src="../assets/star.png" alt="star">
+              <img class="inline " src="../assets/star.png" alt="star">
+              <img class="inline" src="../assets/star.png" alt="star">
+
+              <p class="pl-1 inline text place-self-end">4.7 out of 5</p>
+            </div>
+
+            <p class="pl-10 text-white" style="font-size: 11px;">37 customer ratings</p>
+            <div class="grid grid-cols-7 pt-5">
+              <p class="text inline" style="white-space: nowrap;">5 star</p>
+              <div class="progress-bar bg-white col-span-5 rounded-full"> 
+                <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:84%; border-color: #FF7F50; border-width: 3px;"></div>
+              </div>
+              <p class="text mr-10">84%</p>
+            </div>
+            <div class="grid grid-cols-7 pt-3">
+              <p class="text inline" style="white-space: nowrap;">4 star</p>
+              <div class="progress-bar bg-white col-span-5 rounded-full"> 
+                <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:9%; border-color: #FF7F50; border-width: 3px;"></div>
+              </div>
+              <p class="text mr-10">9%</p>
+            </div>
+            <div class="grid grid-cols-7 pt-3">
+              <p class="text inline" style="white-space: nowrap;">3 star</p>
+              <div class="progress-bar bg-white col-span-5 rounded-full"> 
+                <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:4%; border-color: #FF7F50; border-width: 3px;"></div>
+              </div>
+              <p class="text mr-10">4%</p>
+            </div>
+            <div class="grid grid-cols-7 pt-3">
+              <p class="text inline" style="white-space: nowrap;">2 star</p>
+              <div class="progress-bar bg-white col-span-5 rounded-full"> 
+                <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:2%; border-color: #FF7F50; border-width: 3px;"></div>
+              </div>
+              <p class="text mr-10">2%</p>
+            </div>
+            <div class="grid grid-cols-7 pt-3">
+              <p class="text inline" style="white-space: nowrap;">1 star</p>
+              <div class="progress-bar bg-white col-span-5 rounded-full"> 
+                <div class="progress-bar rounded-full block bg-clinic-yellow" style="height: 100%; width:1%; border-color: #FF7F50; border-width: 3px;"></div>
+              </div>
+              <p class="text mr-10">1%</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-body pl-10 lg:col-span-3 md:row-span-3 md:flex-auto">
+          <h3 class="card-title inline mt-5 break-normal">
+            ClearEye Hospital <p class="inline body-text"> (1.3 miles away)</p>
+          </h3>
+          <hr class="mb-4" style="max-width: 821px;">
+
+          <p class="card-text break-normal">“The nurses were very accomodating and friendly. Enjoyed their service and ambience.”</p>
+          <p class="text-right mr-20 body-text">Ayotunde</p>
+
+          <hr class="my-4">
+
+          <p class="card-text break-normal">“The doctor was friendly, but the nurses kept making mistakes and messing up.”</p>
+          <p class="text-right mr-20 body-text">Debbie</p>
+
+          <hr class="my-4">
+
+          <h4 class="text-center card-text">More Reviews</h4>
+
+        </div>
       </div>
+      
+
+    </div>
   </section>
   <section class="justify-center max-w-7xl md:mx-auto px-4 pt-20">
     <div class="experience lg:ml-20"><h3>Tell Us Your Experience</h3></div>
 
-    <form class="grid justify-center lg:grid-rows-3 md:grid-rows-2 ml-10" netlify>
+    <form class="grid justify-center grid-rows-2 lg:ml-5 lg:mb-5" netlify>
       <div class="p-3">
         <div class="place-self-start inline">
-          <img class="inline p-3" src="../assets/big-star.png" alt="">
-          <img class="inline p-3" src="../assets/big-star.png" alt="">
-          <img class="inline p-3" src="../assets/big-star.png" alt="">
-          <img class="inline p-3" src="../assets/big-star.png" alt="">
-          <img class="inline p-3" src="../assets/big-star.png" alt="">
+          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
+          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
+          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
+          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
+          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
         </div>
-        <div class="inline ml-20">
-          <input class="bg-white pl-5" type="text" placeholder="Name*" style="color: #002366; width: 362px; height: 70px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
+        <div class="inline lg:ml-20">
+          <input class="bg-white md:m-auto pl-5" type="text" placeholder="Name*" style="color: #002366; width: 70%; height: 70px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
         </div>
       </div>
-      <div class="lg:row-span-2 mt-5">
+      <div class="mt-5">
         
-        <input class="bg-white pl-5" type="text" placeholder="Review*" style="color: #002366; width: 100%; height: 196px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
+        <input class="bg-white md:m-auto pl-5" type="text" placeholder="Review*" style="color: #002366; width: 90%; height: 196px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
 
       </div>
       <div class="grid justify-center">
