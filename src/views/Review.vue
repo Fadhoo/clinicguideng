@@ -108,19 +108,19 @@
     <div class="experience lg:ml-20"><h3>Tell Us Your Experience</h3></div>
 
     <form class="grid justify-center grid-rows-2 lg:ml-5 lg:mb-5" netlify>
-      <div class="p-3">
+      <div class="mt-20">
         <div class="place-self-start inline">
-          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
-          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
-          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
-          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
-          <img class="inline md:w-2/12 p-3" src="../assets/big-star.png" alt="">
+          <img class="inline p-3" src="../assets/big-star.png" alt="">
+          <img class="inline p-3" src="../assets/big-star.png" alt="">
+          <img class="inline p-3" src="../assets/big-star.png" alt="">
+          <img class="inline p-3" src="../assets/big-star.png" alt="">
+          <img class="inline p-3" src="../assets/big-star.png" alt="">
         </div>
-        <div class="inline lg:ml-20">
-          <input class="bg-white md:m-auto pl-5" type="text" placeholder="Name*" style="color: #002366; width: 70%; height: 70px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
+        <div class="inline lg:ml-10">
+          <input class="bg-white" type="text" placeholder="Name*" style="color: #002366; width: 35%; height: 70px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
         </div>
       </div>
-      <div class="mt-5">
+      <div class="md:mt-5 lg:pl-10">
         
         <input class="bg-white md:m-auto pl-5" type="text" placeholder="Review*" style="color: #002366; width: 90%; height: 196px; font-size:28px; border-color: #002366; border-width: 3px; border-radius: 14px;">
 

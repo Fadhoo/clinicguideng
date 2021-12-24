@@ -73,20 +73,19 @@
             </div>
             
         </section>
-        <section class="pt-10">
+        <section class="justify-center max-w-7xl bottom-0  md:mx-auto px-4 pt-20">
             <div class="bg-white shadow">
-                <div class="justify content-center">
-
-                    <p class="clinicblue text-center">
-                    © 2021 Copyright:
-                    <a
-                    href="#"
-                    class="clinicblue"
-                    >Clinic Guide NG. All rights reserved.</a
-                    >
-                    </p>
-                
-                </div>
+            <div class="justify content-center">
+                <p class="clinicblue text-center">
+                © 2021 Copyright:
+                <a
+                href="#"
+                class="clinicblue"
+                >Clinic Guide NG. All rights reserved.</a
+                >
+                </p>
+            
+            </div>
             </div>
         </section>
     </body>
