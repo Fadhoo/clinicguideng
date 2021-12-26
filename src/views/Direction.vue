@@ -111,7 +111,7 @@ export default {
     text-align: center;
 }
 .line {
-    width: 980px;
+    width: 80%;
     margin: auto;
 }
 
