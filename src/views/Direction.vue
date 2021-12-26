@@ -5,21 +5,11 @@
             
             <div class="mapouter">
 
-                <div style="width:100%;height:630px;">
+                <iframe src="https://mystifying-morse-8b8ec0.netlify.app/" width="100%" height="630px" frameborder="0"></iframe>
+
+                <!-- <div style="width:100%;height:630px;">
                     <locator/>
-                </div>
-                
-                <!-- <iframe
-                width="100%"
-                height="630px"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=%20Igbobi%20102216,%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-                ></iframe
-                > -->
+                </div> -->
                 
             </div>
             
@@ -95,12 +85,12 @@
 <script>
 // @ is an alias to /src
 import Navbar from '@/components/Navbar.vue'
-import Locator from '@/components/Locator.vue'
+// import Locator from '@/components/Locator2.vue'
 
 export default {
     components: {
         Navbar,
-        Locator,
+        // Locator,
     }
 
 }

@@ -4,8 +4,8 @@
   <body>
     <section class="justify-items-center max-w-7xl md:mx-auto px-4">
       <!-- <div class=""> -->
-      <div class="grid bg-blue lg:grid-cols-2 sm:relative sm:grid-cols-none pb-10">
-        <div class="pt-10">
+      <div class="grid lg:grid-cols-2 sm:relative md:grid-cols-none pb-10">
+        <div class="pt-10 bg-[url('../assets/landing-mobile.png')]">
           <div class="flex landing-text">
             Find Healthcare <br> You Need, Anywhere You Are.
           </div>
@@ -68,7 +68,7 @@
           </router-link>
           
         </div>
-        <div class="pt-10 ">
+        <div class="pt-10 hidden lg:inline-block">
           <img src="../assets/landing-image.svg" alt="landing-image" />
         </div>
       </div>
