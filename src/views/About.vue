@@ -36,7 +36,7 @@
             to get my brother an inhaler who was having <br>
             an asthma attack.
           </p>
-          <h3 class="text mt-20 ml-20 text-left font-bold">Adesuwa</h3>
+          <h3 class="text lg:mt-20 ml-20 text-left font-bold">Adesuwa</h3>
           <p class="text mt-2 ml-20 text-left">Idumota, Lagos</p>
            
         </div>

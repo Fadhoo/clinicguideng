@@ -2,10 +2,10 @@
   
   <Navbar />
   <body>
-    <section class="justify-items-center max-w-7xl md:mx-auto px-4">
+    <section class="justify-items-center max-w-7xl md:mx-auto px-4 h-full">
       <!-- <div class=""> -->
-      <div class="grid lg:grid-cols-2 sm:relative md:grid-cols-none pb-10">
-        <div class="pt-10 bg-[url('../assets/landing-mobile.png')]">
+      <div class="grid lg:grid-cols-2 sm:relative md:grid-cols-none pb-10 lg:bg-none md:back-image">
+        <div class="pt-10">
           <div class="flex landing-text">
             Find Healthcare <br> You Need, Anywhere You Are.
           </div>
@@ -60,8 +60,8 @@
                 hover:border-transparent
                 rounded-full
                 landing-page-button3
+                w-4/5
               "
-              style="width: 467px"
             >
               Find Emergency Contacts
             </button>
@@ -75,12 +75,12 @@
       <!-- </div> -->
     </section>
     <section class="max-w-7xl md:mx-auto lg:px-4 md:px-2">
-      <div class="grid bg-blue lg:grid-cols-2 sm:grid-cols-1">
-        <div class="place-self-end mt-10">
+      <div class="grid bg-blue justify-center lg:grid-cols-2 sm:grid-cols-1">
+        <div class="lg:place-self-end mt-10">
           <div class="mapouter">
             <div class="gmap_canvas">
             <iframe
-              width="630"
+              width="100%"
               height="100%"
               id="gmap_canvas"
               src="https://maps.google.com/maps?q=%20Igbobi%20102216,%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -94,7 +94,7 @@
             </div>
           </div>
         </div>
-        <div class="content-start lg:ml-2 mt-10">
+        <div class="lg:content-start lg:ml-2 mt-10">
           
           <div class="address-card">
             <div class="">
@@ -139,7 +139,7 @@
                   <img class="pl-10 pt-5 justify-self-end" src="../assets/arrow_right.png" alt="arrow">
                 </div>
               </div>
-              <hr class="mt-4 m-auto" style="width: 90%;">
+              <hr class="mt-4 w m-auto" style="width: 90%;">
               <p class="clinicblue text-center" style="font-weight: 900; font-size: 28px;">More Options</p>
             </div>
           </div>
@@ -147,7 +147,7 @@
         </div>
       </div>
     </section>
-    <section class="justify-items-center max-w-7xl md:mx-auto px-4 mt-10">
+    <section class="justify-items-center hidden max-w-7xl md:mx-auto px-4 mt-10">
       <div class="bluecard">
         <div class="card-header shadow">
           <div class="grid h-full grid-cols-3 pt-5">
@@ -374,9 +374,14 @@ export default {
 </script>
 
 <style scoped>
+.back-image{
+  background-image: url( ../assets/landing-mobile.png);
+  image-rendering: auto;
+}
   .bluecard {
     background-color: #002366;  
-    width: 1196px;
+    width: 100%;
+    max-width: 1196px;
     height: 630px;
     border-radius: 14px;
   }
@@ -389,6 +394,7 @@ export default {
     /* margin: auto; */
     width: 100%;
     max-width: 566px;
+    min-width: auto;
     /* height: 630px; */
   }
 
@@ -403,7 +409,8 @@ export default {
   }
 
   .card-input {
-    width: 548px;
+    width: 60%;
+    max-width: 548px;
     height: 70px;
     background-color: #002366;
     font-weight: 700;
@@ -424,8 +431,10 @@ export default {
 
   .frame {
     border: 2px solid white;
-    height: 342px; 
-    width: 346px;
+    height: 100%; 
+    width: 100%;
+    max-height: 342px; 
+    max-width: 346px;
   }
   .frame h3 {
     font-size: 21px;
