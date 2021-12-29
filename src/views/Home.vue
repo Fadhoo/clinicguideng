@@ -74,7 +74,7 @@
       </div>
       <!-- </div> -->
     </section>
-    <section class="max-w-7xl lg:px-4 md:mx-2">
+    <section class="max-w-7xl px-4">
       <div class="grid bg-blue justify-center lg:grid-cols-2 sm:grid-cols-1">
         <div class="lg:place-self-end mt-10">
           <div class="mapouter">
