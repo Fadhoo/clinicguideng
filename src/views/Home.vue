@@ -74,7 +74,7 @@
       </div>
       <!-- </div> -->
     </section>
-    <section class="max-w-7xl md:mx-auto lg:px-4 md:px-2">
+    <section class="max-w-7xl lg:px-4 md:mx-2">
       <div class="grid bg-blue justify-center lg:grid-cols-2 sm:grid-cols-1">
         <div class="lg:place-self-end mt-10">
           <div class="mapouter">
@@ -147,7 +147,7 @@
         </div>
       </div>
     </section>
-    <section class="justify-items-center hidden max-w-7xl md:mx-auto px-4 mt-10">
+    <section class="justify-items-center max-w-7xl md:mx-auto px-4 mt-10">
       <div class="bluecard">
         <div class="card-header shadow">
           <div class="grid h-full grid-cols-3 pt-5">
@@ -156,8 +156,8 @@
             <div class="card-header-text text-center">Update Information</div>
           </div>
         </div>
-        <div class="grid grid-cols-5 pt-10">
-          <div class="col-span-3 justify-center pl-10">
+        <div class="grid lg:grid-cols-5 lg:grid-rows-none md:grid-cols-none md:grid-rows-5 pt-10">
+          <div class="lg:col-span-3 md:row-span-3 justify-center pl-10">
             <form class="justify-center">
               <div class="mb-4">
                 <input class="card-input appearance-none border py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name">
@@ -179,7 +179,7 @@
             </p>
             
           </div>
-          <div class="col-span-2 justify-center pr-10">
+          <div class="col-span-2 md:row-span-2 justify-center pr-10">
             <div class="frame content-center relative">
               <img class="absolute bottom-0 ml-10" src="../assets/user-plus.png" alt="">
               <div class="bg-white absolute bottom-0 place-self-center" style="height: 43px; width: 346px;">
@@ -382,7 +382,7 @@ export default {
     background-color: #002366;  
     width: 100%;
     max-width: 1196px;
-    height: 630px;
+    min-height: 630px;
     border-radius: 14px;
   }
 
