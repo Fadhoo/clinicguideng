@@ -147,7 +147,7 @@
         </div>
       </div>
     </section>
-    <section class="justify-items-center max-w-7xl md:mx-auto px-4 mt-10">
+    <section class="justify-items-center md:hidden max-w-7xl md:mx-auto px-4 mt-10">
       <div class="bluecard">
         <div class="card-header shadow">
           <div class="grid h-full grid-cols-3 pt-5">
