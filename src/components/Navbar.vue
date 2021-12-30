@@ -67,41 +67,41 @@
       </div>
     </div>
     <!-- mobile menu -->
-    <div class="hidden mobile-menu absolute bg-white w-full h-1/2 justify-center text-center">
+    <div class="hidden mobile-menu absolute bg-white w-full h-1/2 justify-center opacity-90 text-center">
       
       <ul class="grid grid-rows-5 mt-10">
         <li class="active">
           <router-link
             to="/"
-            class="block text-center text-sm rounded-full px-2 py-4 font-semibold mobile-nav transition duration-300"
+            class="block text-center text-sm hover:bg-clinic-blue hover:text-white rounded-full px-2 py-4 font-semibold mobile-nav transition duration-300"
             >Home</router-link
           >
         </li>
         <li>
           <router-link
             to="/emergency"
-            class="block text-center text-sm rounded-full px-2 py-4 mobile-nav transition duration-300"
+            class="block text-center text-sm hover:bg-clinic-blue hover:text-white rounded-full px-2 py-4 mobile-nav transition duration-300"
             >Emergency Contacts</router-link
           >
         </li>
         <li>
           <router-link
             to="/blog"
-            class="block text-center text-sm rounded-full px-2 py-4 mobile-nav transition duration-300"
+            class="block text-center text-sm hover:bg-clinic-blue hover:text-white rounded-full px-2 py-4 mobile-nav transition duration-300"
             >Blog</router-link
           >
         </li>
         <li>
           <router-link
             to="/about"
-            class="block text-center text-sm rounded-full px-2 py-4 mobile-nav transition duration-300"
+            class="block text-center text-sm hover:bg-clinic-blue hover:text-white rounded-full px-2 py-4 mobile-nav transition duration-300"
             >About</router-link
           >
         </li>
       </ul>
       <router-link
         to="/review"
-        class="p-2 font-bold text-white bg-clinic-blue rounded-full transition duration-300 my-10"
+        class="p-2 font-bold px-2 text-white bg-clinic-blue rounded-full transition duration-300 "
         style="width: 160px; font-stretch: expanded;"
       >Leave A Review</router-link>
     </div>
