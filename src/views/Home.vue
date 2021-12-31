@@ -68,7 +68,7 @@
           </router-link>
           
         </div>
-        <div class="pt-10 hidden lg:inline-block">
+        <div class="pt-10 lg:inline-block">
           <img src="../assets/landing-image.svg" alt="landing-image" />
         </div>
       </div>
