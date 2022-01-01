@@ -78,13 +78,13 @@
       <h3 class="title mt-2">Latest Stories</h3>
       <hr class="mb-3">
       <div class="grid lg:grid-cols-3 sm:grid-cols-1">
-        <div class="story pt-3">
+        <div class="story pt-3 pr-2">
           <img src="../assets/healthy.png" alt="">
           <h3 class="topic">Nutrition</h3>
           <h5 class="blog-title">Eating Health With A Busy Schedule</h5>
           <p class="blog-details">Adeola Olatunji / 2 Hours Ago</p>
         </div>
-        <div class="story pt-3">
+        <div class="story pt-3 pr-2">
           <img src="../assets/smiley.png" alt="">
           <h3 class="topic">Covid-19</h3>
           <h5 class="blog-title">Signs That You May Have Had Covid-19</h5>
@@ -255,6 +255,7 @@ hr {
 .blog-details {
   font-size: 21px;
   color: #002366;
+  word-break: normal;
 }
 
 .feature {

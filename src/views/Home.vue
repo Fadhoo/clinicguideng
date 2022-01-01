@@ -4,7 +4,7 @@
   <body>
     <section class="justify-items-center max-w-7xl md:mx-auto px-4 h-full">
       <!-- <div class=""> -->
-      <div class="grid lg:grid-cols-2 sm:relative md:grid-cols-none pb-10 lg:bg-none md:back-image">
+      <div class="grid lg:grid-cols-2 sm:relative md:grid-cols-none pb-10 ">
         <div class="pt-10">
           <div class="flex landing-text">
             Find Healthcare <br> You Need, Anywhere You Are.
@@ -74,13 +74,13 @@
       </div>
       <!-- </div> -->
     </section>
-    <section class="max-w-7xl px-4">
+    <section class="justify-center md:mx-auto max-w-7xl px-4">
       <div class="grid bg-blue justify-center lg:grid-cols-2 sm:grid-cols-1">
         <div class="lg:place-self-end mt-10">
           <div class="mapouter">
             <div class="gmap_canvas">
             <iframe
-              width="100%"
+              width="630"
               height="100%"
               id="gmap_canvas"
               src="https://maps.google.com/maps?q=%20Igbobi%20102216,%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -420,13 +420,17 @@ export default {
     text-align: right;
     height: 630px;
     width: 100%;
+    max-width: 566px;
+    /* min-width: auto; */
   }
   
   .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 630px;
-    width: 100%;
+    /* width: 100%; */
+    width: 566px;
+    /* min-width: auto; */
   }
 
   .frame {

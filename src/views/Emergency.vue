@@ -3,7 +3,7 @@
     <body>
         <section class="justify-items-center max-w-7xl md:mx-auto px-4">
             <div class="box-content">
-                <h3 class="clinicblue text-center pt-4" style="font-weight: 900; font-size: 28px;">Based On Your Location: <br> Lagos, Nigeria.</h3>
+                <h3 class="clinicblue text-center pt-4" style="font-weight: 900; font-size: 35px;">Based On Your Location: <br> Lagos, Nigeria.</h3>
                 <div class="big-card flex justify-center flex-column justify-self-start mx-auto">
                     <div class="card-body">
                     
@@ -104,5 +104,6 @@ export default {
 .address-name {
     color:white;
     font-size: 21px;
+    font-weight: 300;
 }
 </style>

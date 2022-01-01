@@ -8,19 +8,19 @@
     src: url(fonts/proxima-nova/prxima-nova-font.otf)format("opentype");
   }
 
-a,
+/* a,
 h1,
 h2,
 h3,
 h4,h5,h6, p {
-    font-family: proxima-nova, sans-serif;
+    font-family: proxima-nova;
     font-style: regular;
-}
+} */
 
-body {
+/* body {
     font-family: proxima-nova, sans-serif;
     font-weight: 100;
-}
+} */
 
 .card {
     @apply px-8 py-12 min-h-[630px] bg-opacity-50;  
