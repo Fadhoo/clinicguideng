@@ -77,22 +77,19 @@
     <section class="justify-center md:mx-auto max-w-7xl px-4">
       <div class="grid bg-blue justify-center lg:grid-cols-2 sm:grid-cols-1">
         <div class="lg:place-self-end mt-10">
-          <div class="mapouter">
-            <div class="gmap_canvas">
-            <iframe
-              width="630"
-              height="100%"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=%20Igbobi%20102216,%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            ></iframe
-            >
+          <div class="mapouter lg:w-max">
+
+            <iframe class="lg:block hidden" src="https://quizzical-leakey-6ce101.netlify.app/" width="566px" height="620px" frameborder="0">
+            </iframe>
+
+            <iframe class="lg:hidden md:inline" src="https://quizzical-leakey-6ce101.netlify.app/" width="100%" height="620px" frameborder="0">
+            </iframe>
+
+            <!-- <div style="width:100%;height:630px;">
+                <locator/>
+            </div> -->
             
-            </div>
-          </div>
+        </div>
         </div>
         <div class="lg:content-start lg:ml-2 mt-10">
           
