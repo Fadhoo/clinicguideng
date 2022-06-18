@@ -2,12 +2,12 @@
   
   <Navbar />
   <body>
-    <section class="justify-items-center max-w-7xl md:mx-auto px-4 h-full">
+    <section class="justify-items-center lg:max-w-7xl mx-auto px-4 h-full">
       <!-- <div class=""> -->
       <div class="grid lg:grid-cols-2 sm:relative md:grid-cols-none pb-10 ">
         <div class="pt-10">
           <div class="flex landing-text text-3xl lg:text-7xl">
-            Find Healthcare <br> You Need, Anywhere You Are.
+            Find Healthcare <br> You Need, Anywhere <br class="lg:hidden"> You Are.
           </div>
           <div class="pt-5 lg:pt-10">
             <p class="clinicblue text-base lg:text-2xl">
@@ -15,8 +15,8 @@
               you.
             </p>
           </div>
-          <div class="p-3 pt-10">
-            <router-link to="/direction">
+          <div class="p-4 pt-10">
+            <router-link class="lg:pl-2" to="/direction">
               <button
                 class="
                   bg-transparent
@@ -37,9 +37,10 @@
               </button>
             </router-link>
             
-            <router-link to="/review">
+            <router-link class="pl-4" to="/review">
               <button
                 class="
+                  self-center
                   landing-page-button2
                   text-white
                   font-bold
@@ -57,7 +58,7 @@
             </router-link>
             
           </div>
-          <router-link to="/emergency">
+          <router-link class="pl-2" to="/emergency">
             <button
               class="
                 bg-transparent
@@ -84,24 +85,20 @@
       </div>
       <!-- </div> -->
     </section>
-    <section class="justify-center md:mx-auto max-w-7xl px-4">
-      <div class="grid bg-blue justify-center lg:grid-cols-2 sm:grid-cols-1">
-        <div class="lg:place-self-end mt-10">
+    <section class="justify-center lg:mx-auto lg:max-w-7xl lg:px-4">
+      <div class="grid bg-blue justify-center place-items-center lg:place-items-start lg:grid-cols-2 grid-cols-1">
+        <div class="lg:place-self-end lg:mt-10">
           <div class="lg:mapouter lg:w-max">
 
-            <iframe class="lg:block hidden" src="https://quizzical-leakey-6ce101.netlify.app/" width="566px" height="620px" frameborder="0">
+            <iframe class="lg:block hidden ml-5" src="https://quizzical-leakey-6ce101.netlify.app/" width="566px" height="620px" frameborder="0">
             </iframe>
 
-            <iframe class="lg:hidden md:inline" src="https://quizzical-leakey-6ce101.netlify.app/" width="329px" height="175px" frameborder="0">
+            <iframe class="small-map justify-self-center lg:hidden" src="https://quizzical-leakey-6ce101.netlify.app/" width="329px" height="175px" frameborder="0">
             </iframe>
-
-            <!-- <div style="width:100%;height:630px;">
-                <locator/>
-            </div> -->
             
           </div>
         </div>
-        <div class="lg:content-start lg:ml-2 mt-10">
+        <div class="lg:content-start lg:ml-2 lg:mt-10 mt-4">
           
           <div class="address-card hidden lg:inline-block">
             <div class="">
@@ -151,7 +148,7 @@
             </div>
           </div>
 
-          <div class="address-card lg:hidden">
+          <div class="small-address-card lg:hidden">
             <div class="">
               <h3 class="clinicblue text-center" style="font-weight: 800; font-size: 14px;">Top Picks For You:</h3>
               <hr class="mb-6 m-auto" style="width: 90%;">
@@ -182,7 +179,7 @@
         </div>
       </div>
     </section>
-    <section class="justify-items-center hidden max-w-7xl md:mx-auto px-4 mt-10">
+    <section class="justify-items-center hidden lg:max-w-7xl md:mx-auto px-4 mt-10">
       <div class="bluecard">
         <div class="card-header shadow">
           <div class="grid h-full grid-cols-3 pt-5">
@@ -423,14 +420,23 @@ export default {
 
   .address-card {
     background-color: #FF7F50;
-    /* border-radius: 8px; */
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
-    /* margin: auto; */
     width: 100%;
     max-width: 566px;
     min-width: auto;
-    /* height: 630px; */
+  }
+
+  .small-address-card {
+    background-color: #FF7F50;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    width: 329px;
+  }
+
+  .small-map{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
   }
 
   .card-header {
